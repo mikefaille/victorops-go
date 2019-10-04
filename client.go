@@ -28,6 +28,7 @@ type Event struct {
 	EntityDisplayName     string      `json:"entity_display_name,omitempty"`
 	AckMsg                string      `json:"ack_msg,omitempty"`
 	AckAuthor             string      `json:"ack_author,omitempty"`
+	HostName              string      `json:"hostname,omitempty"`
 }
 
 type Response struct {
